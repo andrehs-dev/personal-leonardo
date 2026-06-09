@@ -1,0 +1,36 @@
+plugins = []
+functionsDirectory = "/home/andre/.hermes/profiles/marxis/home/portfolio-builds/Leo Personal/.netlify/functions-internal"
+functionsDirectoryOrigin = "config-v1"
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/home/andre/.hermes/profiles/marxis/home/portfolio-builds/Leo Personal/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "/home/andre/.hermes/profiles/marxis/home/portfolio-builds/Leo Personal"
+command = "npm run build"
+functions = "/home/andre/.hermes/profiles/marxis/home/portfolio-builds/Leo Personal/.netlify/functions-internal"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/assets/*"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
